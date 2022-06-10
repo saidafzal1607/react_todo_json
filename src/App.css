@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.App{
+    
+    max-width: 600px;
+    margin: 15px auto;
+    width: 100%;
+    border: 1px solid rgb(31, 31, 201);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.item{
+    margin: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+}
+
+.item svg{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.item svg:active{
+   
+    color: red;
+}
+
+header{
+    background-color: rgb(31, 31, 201);
+    color: aliceblue;
+}
+
+.addForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px ;
+}
+
+.addInput{
+    max-width: 400px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size:20px ;
+}
+
+.searchInput{
+    margin: 10px 0;
+    max-width: 432px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size:20px ;
+}
+
+.addBtn{
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(31, 31, 201);
+    color: aliceblue;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.num{
+    position: absolute; 
+
+    margin-left: 15px ;   
+}
